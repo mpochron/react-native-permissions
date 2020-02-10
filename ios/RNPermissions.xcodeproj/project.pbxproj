@@ -5,11 +5,10 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
+		D75B042E23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m in Sources */ = {isa = PBXBuildFile; fileRef = D75B042D23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m */; };
 		DD95B2F622D398C1000B5FC6 /* RNPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD95B2F422D398C1000B5FC6 /* RNPermissions.m */; };
 /* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -21,13 +20,12 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNPermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPermissions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75B042D23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPermissionHandlerLocationAlways.m; sourceTree = "<group>"; };
 		DD95B2F422D398C1000B5FC6 /* RNPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPermissions.m; sourceTree = "<group>"; };
 		DD95B2F522D398C1000B5FC6 /* RNPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPermissions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		58B511D81A9E6C8500147676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -37,7 +35,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		134814211AA4EA7D00B7C361 /* Products */ = {
 			isa = PBXGroup;
@@ -50,6 +47,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				D75B042D23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m */,
 				DD95B2F522D398C1000B5FC6 /* RNPermissions.h */,
 				DD95B2F422D398C1000B5FC6 /* RNPermissions.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
@@ -60,7 +58,6 @@
 			usesTabs = 0;
 		};
 /* End PBXGroup section */
-
 /* Begin PBXNativeTarget section */
 		58B511DA1A9E6C8500147676 /* RNPermissions */ = {
 			isa = PBXNativeTarget;
@@ -80,7 +77,6 @@
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
-
 /* Begin PBXProject section */
 		58B511D31A9E6C8500147676 /* Project object */ = {
 			isa = PBXProject;
@@ -98,6 +94,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -109,18 +106,17 @@
 			);
 		};
 /* End PBXProject section */
-
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DD95B2F622D398C1000B5FC6 /* RNPermissions.m in Sources */,
+				D75B042E23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
 /* Begin XCBuildConfiguration section */
 		58B511ED1A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -251,7 +247,6 @@
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
-
 /* Begin XCConfigurationList section */
 		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNPermissions" */ = {
 			isa = XCConfigurationList;
