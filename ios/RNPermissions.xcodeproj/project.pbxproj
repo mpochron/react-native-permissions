@@ -7,6 +7,8 @@
 	objects = {
 /* Begin PBXBuildFile section */
 		D75B042E23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m in Sources */ = {isa = PBXBuildFile; fileRef = D75B042D23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m */; };
+		D75B044C23F2BBAC005BE1B8 /* RNPermissionHandlerNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = D75B044A23F2BBAC005BE1B8 /* RNPermissionHandlerNotifications.m */; };
+		D75B044D23F2BBAC005BE1B8 /* RNPermissionHandlerLocationWhenInUse.m in Sources */ = {isa = PBXBuildFile; fileRef = D75B044B23F2BBAC005BE1B8 /* RNPermissionHandlerLocationWhenInUse.m */; };
 		DD95B2F622D398C1000B5FC6 /* RNPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD95B2F422D398C1000B5FC6 /* RNPermissions.m */; };
 /* End PBXBuildFile section */
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +25,8 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNPermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPermissions.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75B042D23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPermissionHandlerLocationAlways.m; sourceTree = "<group>"; };
+		D75B044A23F2BBAC005BE1B8 /* RNPermissionHandlerNotifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPermissionHandlerNotifications.m; sourceTree = "<group>"; };
+		D75B044B23F2BBAC005BE1B8 /* RNPermissionHandlerLocationWhenInUse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNPermissionHandlerLocationWhenInUse.m; sourceTree = "<group>"; };
 		DD95B2F422D398C1000B5FC6 /* RNPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPermissions.m; sourceTree = "<group>"; };
 		DD95B2F522D398C1000B5FC6 /* RNPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPermissions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +51,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				D75B044B23F2BBAC005BE1B8 /* RNPermissionHandlerLocationWhenInUse.m */,
+				D75B044A23F2BBAC005BE1B8 /* RNPermissionHandlerNotifications.m */,
 				D75B042D23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m */,
 				DD95B2F522D398C1000B5FC6 /* RNPermissions.h */,
 				DD95B2F422D398C1000B5FC6 /* RNPermissions.m */,
@@ -112,6 +118,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD95B2F622D398C1000B5FC6 /* RNPermissions.m in Sources */,
+				D75B044C23F2BBAC005BE1B8 /* RNPermissionHandlerNotifications.m in Sources */,
+				D75B044D23F2BBAC005BE1B8 /* RNPermissionHandlerLocationWhenInUse.m in Sources */,
 				D75B042E23F20A12005BE1B8 /* RNPermissionHandlerLocationAlways.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
